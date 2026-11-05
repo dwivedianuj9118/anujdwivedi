@@ -104,21 +104,21 @@ const PROJECTS_DATA: Project[] = [
     category: 'enterprise'
   },
   {
-    title: 'Real-Time Dating Engine',
-    subtitle: 'High-Concurrency Match Backend',
-    description: 'Designed and deployed a highly available, real-time message router using Node.js and WebSockets. Achieved 99.99% message delivery speed with custom memory-cached queues, routing messages instantly without persistent database overhead.',
-    tags: ['Node.js', 'WebSockets', 'MongoDB', 'Redis Cluster'],
-    status: '99.9% Reliable',
+    title: 'Bangla Calendar App Backend',
+    subtitle: 'High-Traffic Consumer API',
+    description: 'Designed and built the complete backend, APIs and Laravel admin panel for a Bangla calendar app with 10M+ installs and ~20K concurrent users at peak, covering calendar, astrology and horoscope features. Cloudflare edge caching and Redis keep it fast under peak load.',
+    tags: ['Laravel', 'MySQL', 'Redis', 'Cloudflare'],
+    status: '10M+ Installs',
     statusType: 'info',
     gradient: 'from-purple-600 via-pink-600 to-violet-800',
     category: 'high-traffic'
   },
   {
-    title: 'Laravel Custom Artisan Framework',
-    subtitle: 'Open-Source Packagist Package',
-    description: 'Engineered and published a highly extensible open-source package containing customized boilerplate CLI utilities, configuration handlers, and provider abstractions to eliminate repetitive setup structures.',
-    tags: ['Laravel API', 'Composer Package', 'Packagist', 'PHPUnit'],
-    status: 'Packagist Verified',
+    title: 'Laravel AI SDK & Sarvam Provider',
+    subtitle: 'Open Source Contributions',
+    description: 'Merged fixes in laravel/ai, Laravel\'s official AI SDK (#1193, #1188) and docs PRs in laravel/docs. Built laravel-ai-sarvam, a Sarvam AI provider for chat, speech-to-text and text-to-speech in Indian languages, alongside 5 packages on Packagist.',
+    tags: ['laravel/ai', 'Sarvam AI', 'Packagist', 'Pest'],
+    status: 'Merged Upstream',
     statusType: 'success',
     gradient: 'from-emerald-600 via-teal-600 to-green-800',
     category: 'open-source'
@@ -372,7 +372,7 @@ export default function App() {
 *Message Context:*
 _"${customMessage || 'Looking forward to scheduling an engineering assessment review.'}"_
 
-_Transmitted via live interactive app at anuj.dev_`;
+_Transmitted via live interactive app at anujdwivedi.online_`;
 
     const encodedMessage = encodeURIComponent(rawWhatsAppText);
     const targetUrl = `https://wa.me/919118840397?text=${encodedMessage}`;
@@ -525,7 +525,7 @@ _Transmitted via live interactive app at anuj.dev_`;
               {/* Status Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold w-max mb-8 transition-colors">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
-                <span>Available for Senior / Architect Contracts</span>
+                <span>Open to Senior Backend Roles · Remote / Relocate</span>
               </div>
 
               {/* Name Heading */}
@@ -535,12 +535,12 @@ _Transmitted via live interactive app at anuj.dev_`;
 
               {/* Profession Title */}
               <h2 className="text-xl sm:text-2xl font-bold font-display text-indigo-600 dark:text-indigo-400 mb-6">
-                Senior Full Stack Engineer & Cloud DevOps Architect
+                Senior Backend Engineer · Payments & LLM Integrations
               </h2>
 
               {/* Key Description */}
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 font-normal max-w-2xl leading-relaxed mb-8">
-                Over 4+ years of real-world production experience designing high-performance backends, secure automated deployment pipelines, and scalable database cluster shards. Master of <strong>Laravel (Livewire)</strong>, <strong>Node.js (MERN)</strong>, and seamless <strong>multinational payment routing engines</strong>.
+                5+ years building production backends in <strong>Laravel/PHP</strong> and <strong>Node.js (NestJS, Express)</strong>: a payment middleware processing <strong>25K+ transactions a day</strong>, the backend of a <strong>10M+ install</strong> app, and multi-provider <strong>LLM integrations</strong>. Contributor to Laravel&apos;s official AI SDK.
               </p>
 
               {/* Action Buttons */}
@@ -608,7 +608,7 @@ _Transmitted via live interactive app at anuj.dev_`;
                             <code className="text-2xl text-indigo-400 font-extrabold">&lt;AD/&gt;</code>
                           </div>
                           <span className="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono text-[10px] uppercase font-bold tracking-widest">
-                        AWS CERTIFIED
+                        OPEN SOURCE
                       </span>
                         </div>
 
@@ -618,7 +618,7 @@ _Transmitted via live interactive app at anuj.dev_`;
                           </div>
                           <div className="font-mono text-xs text-indigo-400 space-y-1">
                             <p className="text-emerald-400">// PACKAGIST PACKAGE PUBLISHER</p>
-                            <p>M.Tech Cloud Architecture</p>
+                            <p>M.Tech Computer Science</p>
                             <p>B.Tech Computer Science</p>
                           </div>
                         </div>
@@ -633,11 +633,11 @@ _Transmitted via live interactive app at anuj.dev_`;
               {/* Floating Card 1 (Top Left): "Laravel Expert" strictly replicating image_8c2142.png specs */}
               <div className="absolute -top-4 -left-6 sm:-left-12 bg-slate-950/80 backdrop-blur-xl px-5 py-4 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/10 flex items-center gap-4 z-20 animate-float-slow">
                 <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center font-bold text-indigo-400 border border-indigo-500/20 text-md tracking-wider">
-                  L10
+                  PR
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-sm font-bold text-white tracking-wide">Laravel Expert</span>
-                  <span className="text-[11px] text-emerald-400 font-medium font-mono mt-0.5">Packagist Package Published</span>
+                  <span className="text-sm font-bold text-white tracking-wide">laravel/ai Contributor</span>
+                  <span className="text-[11px] text-emerald-400 font-medium font-mono mt-0.5">Merged PRs · 5 Packagist packages</span>
                 </div>
               </div>
 
@@ -647,8 +647,8 @@ _Transmitted via live interactive app at anuj.dev_`;
                   📦
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-sm font-bold text-white tracking-wide">CI / CD Orchestration</span>
-                  <span className="text-[11px] text-slate-400 font-medium font-mono mt-0.5">Docker & AWS Certified</span>
+                  <span className="text-sm font-bold text-white tracking-wide">25K+ Transactions / Day</span>
+                  <span className="text-[11px] text-slate-400 font-medium font-mono mt-0.5">Ranapay payment middleware</span>
                 </div>
               </div>
 
@@ -663,7 +663,7 @@ _Transmitted via live interactive app at anuj.dev_`;
 
               <div className="text-center">
                 <div className="font-display font-extrabold text-4xl sm:text-5xl text-indigo-600 dark:text-indigo-400 tracking-tight">
-                  4+
+                  5+
                 </div>
                 <p className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-slate-500 dark:text-slate-400 mt-2">
                   Years Commercial Exp
@@ -681,19 +681,19 @@ _Transmitted via live interactive app at anuj.dev_`;
 
               <div className="text-center">
                 <div className="font-display font-extrabold text-4xl sm:text-5xl text-purple-600 dark:text-purple-400 tracking-tight">
-                  99.99%
+                  25K+
                 </div>
                 <p className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-slate-500 dark:text-slate-400 mt-2">
-                  Automated Service Uptime
+                  Payment Transactions / Day
                 </p>
               </div>
 
               <div className="text-center">
                 <div className="font-display font-extrabold text-4xl sm:text-5xl text-amber-500 tracking-tight">
-                  10+
+                  10M+
                 </div>
                 <p className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-slate-500 dark:text-slate-400 mt-2">
-                  Fintech API Rail integrations
+                  App Installs Served
                 </p>
               </div>
 
@@ -755,7 +755,7 @@ _Transmitted via live interactive app at anuj.dev_`;
 
                 {/* Terminal Logs Interface */}
                 <div className="p-6 bg-slate-950 text-slate-200 font-mono text-xs min-h-[300px] max-h-[300px] overflow-y-auto leading-relaxed">
-                  <p className="text-slate-500 mb-2">// Executing as authenticated administrator: anuj-dev-root</p>
+                  <p className="text-slate-500 mb-2">// Executing as deploy user: anuj@ci-runner</p>
                   {terminalLogs.map((log, idx) => {
                     let textStyle = 'text-slate-300';
                     let icon = '⚡';
@@ -956,6 +956,79 @@ _Transmitted via live interactive app at anuj.dev_`;
 
             <div className="relative border-l-2 border-slate-200 dark:border-slate-950 ml-4 sm:ml-6 space-y-12">
 
+              {/* Code Clowns Tech Solution — Kanpur */}
+              <div className="relative pl-8 sm:pl-12">
+              <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-white dark:bg-slate-950 border-2 border-indigo-600 dark:border-indigo-400 flex items-center justify-center shadow-md">
+                <span className="w-2.5 h-2.5 rounded-full bg-indigo-600 dark:bg-indigo-400"></span>
+              </span>
+
+                <div className="p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-900 bg-white dark:bg-slate-900/40 hover:border-indigo-500/20 transition-all shadow-md">
+                  <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
+                    <div>
+                      <h3 className="font-display font-extrabold text-xl text-slate-950 dark:text-white">
+                        Senior Software Engineer
+                      </h3>
+                      <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
+                      Code Clowns Tech Solution — Kanpur
+                    </span>
+                    </div>
+                    <span className="px-3 py-1 rounded-full font-mono text-[11px] font-bold bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/30">
+                    01/2026 – 10/2026
+                  </span>
+                  </div>
+
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-3 font-normal leading-relaxed list-disc list-inside mb-6">
+                    <li>Built and maintained backend REST APIs for <strong>Ebba Tube</strong>, a platform for a <strong>Canada-based client</strong> with <strong>10K+ users</strong>, serving web and mobile clients.</li>
+                    <li>Removed <strong>N+1 query patterns</strong> and added <strong>Redis caching</strong> on hot read paths, improving API response times by <strong>~30%</strong>.</li>
+                    <li>Developed the backend APIs for <strong>Alifa</strong>, a dating application, from schema design to a release-ready build.</li>
+                  </ul>
+
+                  <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100 dark:border-slate-900">
+                    {['Node.js', 'Express.js', 'MySQL', 'Redis'].map((t, i) => (
+                        <span key={i} className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300">
+                      {t}
+                    </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Oak Tree Software Pvt Ltd — Remote */}
+              <div className="relative pl-8 sm:pl-12">
+              <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-white dark:bg-slate-950 border-2 border-purple-500 flex items-center justify-center shadow-md">
+                <span className="w-2.5 h-2.5 rounded-full bg-purple-500"></span>
+              </span>
+
+                <div className="p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-900 bg-white dark:bg-slate-900/40 hover:border-indigo-500/20 transition-all shadow-md">
+                  <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
+                    <div>
+                      <h3 className="font-display font-extrabold text-xl text-slate-950 dark:text-white">
+                        Senior Software Engineer (Contract)
+                      </h3>
+                      <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
+                      Oak Tree Software Pvt Ltd — Remote
+                    </span>
+                    </div>
+                    <span className="px-3 py-1 rounded-full font-mono text-[11px] font-bold bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/30">
+                    10/2025 – 12/2025
+                  </span>
+                  </div>
+
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-3 font-normal leading-relaxed list-disc list-inside mb-6">
+                    <li>Delivered <strong>10 backend features</strong> and REST APIs in an established Laravel/Node.js codebase.</li>
+                    <li>Mentored <strong>2 junior developers</strong> and documented service behavior for a structured handover.</li>
+                  </ul>
+
+                  <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100 dark:border-slate-900">
+                    {['Laravel', 'Node.js', 'REST APIs'].map((t, i) => (
+                        <span key={i} className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300">
+                      {t}
+                    </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
               {/* Papaya Coders */}
               <div className="relative pl-8 sm:pl-12">
               <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-white dark:bg-slate-950 border-2 border-indigo-600 dark:border-indigo-400 flex items-center justify-center shadow-md">
@@ -969,23 +1042,23 @@ _Transmitted via live interactive app at anuj.dev_`;
                         Senior Software Developer
                       </h3>
                       <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
-                      Papaya Coders Pvt Ltd — Custom Consultancy
+                      Papaya Coders Pvt Ltd — Lucknow (promoted from Full Stack Developer)
                     </span>
                     </div>
                     <span className="px-3 py-1 rounded-full font-mono text-[11px] font-bold bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/30">
-                    10/2023 – Present
+                    10/2023 – 09/2025
                   </span>
                   </div>
 
                   <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-3 font-normal leading-relaxed list-disc list-inside mb-6">
-                    <li>Architected customized enterprise web backends with <strong>Laravel (Livewire)</strong>, Node.js, and React.js.</li>
-                    <li>Maximized database efficiency with indexing and Redis caches, driving query speeds up by <strong>30%</strong>.</li>
-                    <li>Engineered low-latency Webhook API pipelines validated against standard <strong>BBPS transaction models</strong>.</li>
-                    <li>Configured automated container orchestration workflows via Docker targeting highly available <strong>AWS EC2 instances</strong>.</li>
+                    <li>Built the complete backend, APIs and admin panel for a Bangla calendar app with <strong>10M+ installs</strong> and <strong>~20K concurrent users</strong>, using Cloudflare and Redis for peak load.</li>
+                    <li>Built <strong>Ranapay</strong>, a microservice payment middleware processing <strong>25K+ transactions a day</strong>, with central auth, payment orchestration, structured logging and caching.</li>
+                    <li>Implemented <strong>BBPS</strong> bill-payment workflows and integrated <strong>5 payment gateways</strong> into a grocery delivery app.</li>
+                    <li>Designed a <strong>3-provider LLM fallback chain</strong> (OpenAI, Gemini, DeepSeek) so a single provider outage no longer stopped the service.</li>
                   </ul>
 
                   <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100 dark:border-slate-900">
-                    {['Laravel (Livewire)', 'Node.js', 'Next.js', 'AWS EC2', 'Redis Clusters', 'Docker'].map((t, i) => (
+                    {['Laravel', 'Node.js', 'NestJS', 'MySQL', 'MongoDB', 'Redis'].map((t, i) => (
                         <span key={i} className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300">
                       {t}
                     </span>
@@ -1004,25 +1077,24 @@ _Transmitted via live interactive app at anuj.dev_`;
                   <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
                     <div>
                       <h3 className="font-display font-extrabold text-xl text-slate-950 dark:text-white">
-                        Full Stack Developer
+                        Software Developer
                       </h3>
                       <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
-                      Digislots Pvt Ltd — Software Studio
+                      Digislots Pvt Ltd — Lucknow
                     </span>
                     </div>
                     <span className="px-3 py-1 rounded-full font-mono text-[11px] font-bold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-900/30">
-                    09/2021 – 06/2022
+                    09/2021 – 09/2023
                   </span>
                   </div>
 
                   <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-3 font-normal leading-relaxed list-disc list-inside mb-6">
-                    <li>Designed responsive REST APIs inside TypeScript and Express frameworks deployed on <strong>GCP Compute Engine</strong>.</li>
-                    <li>Authored and published reusable open-source helper library extensions on <strong>Packagist Composer</strong> networks.</li>
-                    <li>Implemented continuous sync listeners via Firebase DB workflows for real-time web UI modules.</li>
+                    <li>Developed PHP web applications and REST APIs in <strong>Laravel</strong> and <strong>CodeIgniter</strong>, including admin panels, MySQL schemas and third-party integrations for mobile apps.</li>
+                    <li>Delivered features end to end, from requirements and database design to deployment on <strong>GCP Compute Engine</strong>.</li>
                   </ul>
 
                   <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100 dark:border-slate-900">
-                    {['Laravel API', 'TypeScript', 'GCP Compute', 'Composer Packages', 'Firebase Real-Time'].map((t, i) => (
+                    {['PHP', 'Laravel', 'CodeIgniter', 'MySQL', 'GCP Compute'].map((t, i) => (
                         <span key={i} className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300">
                       {t}
                     </span>
@@ -1121,10 +1193,10 @@ _Transmitted via live interactive app at anuj.dev_`;
                   <span className="text-3xl mt-1 shrink-0">🎓</span>
                   <div>
                     <h3 className="font-display font-bold text-lg text-slate-950 dark:text-white">
-                      M.Tech — Cloud Integration & Engineering
+                      M.Tech — Computer Science
                     </h3>
                     <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 font-mono block mt-1">
-                    08/2023 - 05/2025
+                    2023 – 2025 · AKTU, alongside full-time work
                   </span>
                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
                       Advanced study in high-throughput transactional scaling, complex database management algorithms, and load distribution methodologies.
@@ -1139,7 +1211,7 @@ _Transmitted via live interactive app at anuj.dev_`;
                       B.Tech — Computer Science & Engineering
                     </h3>
                     <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 font-mono block mt-1">
-                    08/2020 - 05/2023
+                    2020 – 2023 · AKTU, lateral entry
                   </span>
                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
                       Undergraduate curriculum emphasizing system structures, object-oriented concepts, runtime calculations, and database schema layouts.
@@ -1210,7 +1282,7 @@ _Transmitted via live interactive app at anuj.dev_`;
                 Ready to construct stable software?
               </h2>
               <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-normal mb-8">
-                Whether you are hiring a senior full-stack developer or setting up cloud architectures, I have the commercial engineering experience to deliver on specifications.
+                Hiring a senior backend engineer for payments, high-traffic APIs or LLM features? Send the details and I&apos;ll reply within a day.
               </p>
 
               <div className="space-y-4 text-xs font-semibold">
